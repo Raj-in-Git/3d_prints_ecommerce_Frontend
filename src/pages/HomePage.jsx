@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 
-const API_URL = "http://localhost:5000/"; // your backend URL
+const API_URL = "https://threed-prints-ecommerce-backend.onrender.com/"; // your backend URL
 
 function HomePage() {
   const [products, setProducts] = useState([]);

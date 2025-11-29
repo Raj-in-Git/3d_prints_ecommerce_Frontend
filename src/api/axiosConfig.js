@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/"; // adjust if needed
+const BASE_URL = "https://threed-prints-ecommerce-backend.onrender.com/"; // adjust if needed
 
 const api = axios.create({
   baseURL: BASE_URL,
