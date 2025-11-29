@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "../api/axiosConfig";
 
-const API_URL = "http://localhost:5000/"; // your backend URL
+const API_URL = "https://threed-prints-ecommerce-backend.onrender.com/"; // your backend URL
 
 function ProductPage() {
   const { id } = useParams();
